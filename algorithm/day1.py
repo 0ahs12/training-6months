@@ -2,4 +2,8 @@
 
 ##정수 하나 n을 입력받아 그 수의 제곱(n²) 값을 출력하는 프로그램을 작성하시오.
 
-gi
+n = int(input().strip())
+
+total = n * n
+
+print(total)
